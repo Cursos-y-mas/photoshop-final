@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto:ital,wght@0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.ban{
+    padding: 70px;
+    width: 100%;
+    
+    background: center fixed url(../img/wallhaven-nejm58.jpg);
+    
+}
+
+
+/*Texto*/
+.contenido{
+    padding: 100px;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #a596d3 0, #a596d3 50%, #a596d3 100%);
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 13%;
+    border-radius: 20px;
+}
+/*Titulo*/
+.titulo{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    font-size: 40px;
+}
+.texto{
+ font-size: 20px;
+ font-weight: 500;
+ color: #fff;
+}
+.boton{
+text-decoration: none;
+border: 2px solid #fff;
+padding: 0.6em 3.5em;
+margin: auto;
+border-radius: 50px;
+color: #fff;
+
+}
+.boton:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+/*Cuerpo de la información*/
+.informacion{
+    width: 100%;
+    
+    padding: 30px 0 30px 0;
+
+}
+.titu{
+    text-align: center;
+    margin-top: 5%;
+    color: #4e42d4;
+    font-weight: 600;
+    font-size: 30px;
+}
+.contenido-informacion{
+    text-align: center;
+    color: #4e42d4;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+
+/*Adobe texto*/
+
+.adobe-texto{
+    width: 100%;
+margin-top: 10%;
+    
+}
+.titulo-adobe{
+    text-align: center;
+    margin-top: 3%;
+    color: #4e42d4;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.textoadobe{
+    background-image: linear-gradient(135deg, #1556d0 0, #1556d0 50%, #1556d0 100%);
+    width: 40%;
+    margin-left: 8%;
+    padding: 15px;
+    color: #fff;
+    margin-top: 2%;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid gray;
+    font-size: 18px;
+    
+}
+/*Contenedor img*/
+.imagen-adobe{
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+/*img*/
+.adobe{
+    width: 350px;
+    
+    border-radius: 10px;
+}
+
+.info-adobe{
+    display: flex;
+    /*Flex wrap*/
+    flex-wrap: wrap;
+}
+
+/*Video*/
+
+.VIDEO{
+    width: 100%;
+}
+.video-pr{
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/*Exponente*/
+.exponente{
+    margin-top: 10%;
+    width: 100%;
+    padding: 30px;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #3853f2 0, #3853f2 50%, #3853f2 100%);
+}
+.contenedor-display{
+    display: flex;
+    /*Flex wrap*/
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.titulo-exponente{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+.foto-exponente{
+margin-left: 10%;
+}
+.foto--exponente{
+    width: 200px;
+}
+.texto-exponente{
+color: #fff;
+width: 60%;
+margin-left: 3%;
+text-align: center;
+}
+/*extratexto*/
+.extra-texto{
+    width: 100%;
+    margin-top: 5%;
+}
+.tite{
+text-align: center;
+color: #4e42d4;
+}
+.texto-extra{
+text-align: center;
+color: #4e42d4;
+font-size: 20px;
+margin-left: 13%;
+margin-right: 13%;
+
+}
+
+.hr{
+    width: 70%;
+    color: #4e42d4;
+    margin-left: 15%;
+}
+
+/*Contenido del curso*/
+.titu--contenido{
+    text-align: center;
+    color: #4e42d4;
+}
+.contenido-curso{
+    width: 100%;
+    margin-top: 4%;
+}
+.contenedor-dis{
+    margin-top: 3.5%;
+    display: flex;
+     /*Flex wrap*/
+     flex-wrap: wrap;
+}
+.imagen-dis{
+    margin-left: 6%;
+}
+.texto-dis{
+    
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 5%;
+    color: #4e42d4;
+}
+/*Footer*/
+.footer{
+    width: 100%;
+    padding: 70px;
+    margin-top: 6%;
+    background: #4e42d4;;
+}
+.iconos{
+    display: flex;
+  
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+.linea{
+    margin-left: 10%;
+    width: 80%;
+    color: #4e42d4;
+    margin-top: 6%;
+}
+.titulo-footer{
+    text-align: center;
+    margin-top: 1%;
+    color: #fff;
+}
+
+/*Precio*/
+.precio{
+    margin-top: 4%;
+}
+.texto-precio{
+text-align: center;
+font-size: 30px;
+color: #4e42d4;
+}
+.dolar-precio{
+    color: black ;
+}
+.boton-precioo{
+    text-align: center;
+}
+.boton-precio{
+  
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 0.6em 3.5em;
+    color: #4e42d4;
+    margin: auto;
+    border-radius: 50px;
+}
+/*Responsive*/
+
+@media only screen and (max-width: 600px) {
+  
+
+.textoadobe{
+    margin:5px auto;
+    width: 72%;
+}
+.adobe{
+    width: 220px;
+    width: 90%;
+}
+.VIDEO{
+width: 72%;
+}
+.video-pr{
+width: 230px;
+}
+
+.imagencurso{
+
+    width: 315px;
+}
+
+.exponente{
+    width: 100%;
+}
+.titulo-exponente{
+    width: 95%;
+}
+.contenedor-display{
+    width: 100%;
+}
+.foto--exponente{
+    width: 250px;
+}
+.texto-exponente{
+    width: 95%;
+}
+
+
+.ban{
+    width: 100%;
+    background-image: radial-gradient(circle at 0% 0%, #7e52b0 0, #7e52b0 50%, #7e52b0 100%);
+}
+.contenido{
+    width: 100%;
+    margin:0%;
+    padding:50px;
+}
+.titulo{
+    font-size: 19px;
+ 
+}
+.texto{
+    font-size: 15px;
+   
+}
+
+.boton{
+    padding: 0.3em 2.5em;
+}
+
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+
+
+
+
+    
+   
+
+  }
